@@ -6,7 +6,7 @@ function TodoCounter({ totalTodos, completedTodos, loading }) {
     <h2
       className={`TodoCounter ${!!loading && "TodoCounter--loading"}`}
     >
-      Has completado {completedTodos} de {totalTodos} TODOs
+      Has completado {completedTodos} de {totalTodos} Tareas
     </h2>
   );
 }

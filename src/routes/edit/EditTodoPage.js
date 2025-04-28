@@ -24,7 +24,7 @@ function EditTodoPage() {
   } 
   return (
     <TodoForm
-      label="Edita tu TODO"
+      label="Edita tu Tarea"
       defaultTodoText={todoText}
       submitText="Editar"
       submitEvent={(newText) => editTodo(id, newText)}
